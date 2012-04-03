@@ -1,0 +1,20 @@
+html {
+    font-family: "Georgia", Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+
+body{
+background: E0EFF1;
+}
+
+#content {
+font-size: 1.2em;
+line-height: 1.3em;
+padding: 1em;
+margin-left: auto;
+margin-right:auto;
+margin-top: 0em;
+width: 70%;
+margin-bottom:2em;
+padding-bottom:1em;
+}
