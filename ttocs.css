@@ -19,5 +19,13 @@ margin-bottom:2em;
 padding-bottom:1em;
 }
 
+#fwf {
+font-family: Courier;
+}
+
+#menu {
+text-align: center;
+}
+
 a:link, a:visited {color: #222; text-decoration: underline; }
 a:active, a:hover {color: #444; text-decoration: underline; }
