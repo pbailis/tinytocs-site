@@ -29,3 +29,24 @@ text-align: center;
 
 a:link, a:visited {color: #222; text-decoration: underline; }
 a:active, a:hover {color: #444; text-decoration: underline; }
+
+.topics ul {
+  margin-left: auto;
+  margin-right: auto;
+  width:600px;
+  margin-bottom:20px;
+  overflow:hidden;
+}
+.topics li{
+  width: 50%;
+  line-height:1.5em;
+  float:left;
+  display:inline;
+}
+
+hr {
+    border: none;
+    background-color: #aaa;
+    color: #ccc;
+    height: 1px;
+}
