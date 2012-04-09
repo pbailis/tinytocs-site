@@ -33,7 +33,7 @@ a:active, a:hover {color: #444; text-decoration: underline; }
 .topics ul {
   margin-left: auto;
   margin-right: auto;
-  width:600px;
+  width:625px;
   margin-bottom:20px;
   overflow:hidden;
 }

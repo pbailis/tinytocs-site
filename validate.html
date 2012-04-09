@@ -52,7 +52,7 @@ checkSuccessFailure();
 function countAbstract()
 {
 var abstract = document.validate.abstract.value.replace(/(\r\n|\n|\r)/gm," ");
-var abstractlen = abstract.length ? abstract.split(' ').length : 0;
+var abstractlen = abstract.split(' ').filter(function(input){return input!=""}).length;
 document.getElementById("abstractcnt").innerHTML = abstractlen;
 
 if(abstractlen > 250)
