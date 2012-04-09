@@ -25,6 +25,9 @@ margin-bottom:2em;
 padding-bottom:1em;
 }
 
+h1 {
+float:left;
+}
 
 #fwf {
 font-family: Courier;
