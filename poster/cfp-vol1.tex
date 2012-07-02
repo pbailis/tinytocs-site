@@ -3,7 +3,18 @@
 \usepackage{textfit}
 \usepackage{boxedminipage}
 \usepackage{url}
+\usepackage{xspace}
 \usepackage[pdftex]{graphicx}
+
+% ----------------------------------------------------------------------
+% Tiny ToCS Call for Participation Poster
+\newcommand{\ttocsVolume}{1}                    % Volume Number
+\newcommand{\ttocsDueDate}{July 8th, 2012}      % Due Date
+\newcommand{\ttocsContentLimit}{140\xspace}     % Content Char Limit
+\newcommand{\ttocsTitleLimit}{118\xspace}       % Title Char Limit
+\newcommand{\ttocsAbstractLimit}{250\xspace}    % Abstract *Word* Limit
+\newcommand{\ttocsRefLimit}{three\xspace}       % Reference Limit
+% ----------------------------------------------------------------------
 
 \usepackage[ps2pdf,
             hyperfigures=false,
@@ -39,27 +50,27 @@ limited to:
 
 \begin{center}
     \begin{tabular}{cc}
-        Artificial Intelligence & Computer Architecture \\
-        Computer Networking & Computer Systems \\
-        Computer Security   & Graphics \\
-        Human-Computer Interaction & Machine Learning \\
-        Programming Languages & Theory of Computation \\
+        Artificial Intelligence     & Computer Architecture \\
+        Computer Networking         & Computer Systems \\
+        Computer Security           & Graphics \\
+        Human-Computer Interaction  & Machine Learning \\
+        Programming Languages       & Theory of Computation \\
     \end{tabular} 
 \end{center}
 
-Tiny ToCS is the premier venue for computer science research of \textbf{140 characters} or less. Submissions are
-allowed an abstract of no more than 250 words and a title of no more than 118 characters. The primary content of
-submissions should fit into 140 characters. The abstract is not intended to expound upon your finding but instead to
-provide context for your work. \\
+Tiny ToCS is the premier venue for computer science research of \textbf{\ttocsContentLimit characters} or less.
+Submissions are allowed an abstract of no more than \ttocsAbstractLimit words and a title of no more than
+\ttocsTitleLimit characters. The primary content of submissions should fit into \ttocsContentLimit characters. The
+abstract is not intended to expound upon your finding but instead to provide context for your work. \\
 
-You may use three references in your submission. Your submission may not contain any non-text figures or special
-formatting. Plain-text only. ASCII art okay. 
+You may use \ttocsRefLimit references in your submission. Your submission may not contain any non-text figures or
+special formatting. Plain-text only. ASCII art okay. 
 
 \end{large}
 \end{boxedminipage}
 
 \begin{center}
-    {\rm \scaletowidth{6in}{Accepting New Paper Submissions until July 8th, 2012}}
+    {\rm \scaletowidth{6in}{Accepting New Paper Submissions until \ttocsDueDate}}
     \vspace*{0.25in}
     {\huge \url{http://tinytocs.org}}
 \end{center}
