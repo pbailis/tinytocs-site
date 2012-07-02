@@ -1,1 +1,5 @@
 upload.sh
+.#kate-*
+poster/*.aux
+poster/*.log
+poster/*.out
