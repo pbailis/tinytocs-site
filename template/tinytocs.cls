@@ -1,15 +1,12 @@
 %% TINY TOCS DOCUMENT FORMAT
 %% JUSTINE SHERRY - MAY 27 2012 - justine@eecs.berkeley.edu
-\def\fileversion{v0.1}          
-\def\filedate{March 27, 2012}    
-\def\docdate {March 27, 2012} 
-\usepackage{epsfig}
-\usepackage{times}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage{amsfonts}
+%%
+%% Thanks to Stephen Checkoway for modifications!
+\def\fileversion{v0.2}          
+\def\filedate{July 7, 2012}    
+\def\docdate {July 7, 2012} 
 % Need this for accents in Arial/Helvetica
-\typeout{Document Class 'tiny-tocs' <27th. Mar '12>.  Modified by Justine Sherry}
+\typeout{Document Class 'tiny-tocs' <7th. July '12>.  Modified by Justine Sherry}
 \typeout{****** Bugs/comments/suggestions/technicalities to Justine Sherry - justine@eecs.berkeley.edu ******}
 \oddsidemargin 9pc
 \evensidemargin 9pc
@@ -505,8 +502,8 @@
 
 \if@ll
   \NeedsTeXFormat{LaTeX2e}
-  \ProvidesClass{tiny-tocs} [2012/3/27 -- hacked from sig-alternate.cls]
-  \RequirePackage{latexsym}% QUERY: are these two really needed?
+  \ProvidesClass{tinytocs} [2012/3/27 -- hacked from sig-alternate.cls]
+  \RequirePackage{mathptmx}
   \let\dooptions\ProcessOptions
 \else
   \let\dooptions\@options
@@ -735,12 +732,10 @@
 \def\ftype@copyrightbox{8}
 \def\@copyrightspace{
 \@float{copyrightbox}[b]
-\begin{center}
 \setlength{\unitlength}{1pc}
-\begin{picture}(40,6) %Space for copyright notice
-\put(0,-0.95){\crnotice{\@toappear}}
+\begin{picture}(32,6) %Space for copyright notice
+\put(0,0){\crnotice\@toappear}
 \end{picture}
-\end{center}
 \end@float}
 
 \def\@toappear{} % Default setting blank - commands below change this.
