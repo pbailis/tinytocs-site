@@ -1,6 +1,11 @@
 html {
-    font-family: "Georgia", Helvetica, Arial, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #111;
     height: 100%;
+}
+
+i {
+    font-family: "Times";
 }
 
 img.headerimg {
@@ -10,23 +15,20 @@ margin-right: auto;
 }
 
 body{
-background: F0F0F0;
+background: #EFEFEF;
 }
 
 #content {
-font-size: 1.1em;
-line-height: 1.3em;
+font-size: 1em;
+line-height: 1em;
 padding: 1em;
 margin-left: auto;
 margin-right:auto;
 margin-top: 0em;
 width: 70%;
+max-width: 800px;
 margin-bottom:2em;
 padding-bottom:1em;
-}
-
-h1 {
-float:left;
 }
 
 #fwf {
@@ -40,23 +42,17 @@ text-align: center;
 a:link, a:visited {color: #222; text-decoration: underline; }
 a:active, a:hover {color: #444; text-decoration: underline; }
 
-.topics ul {
-  margin-left: auto;
-  margin-right: auto;
-  width:625px;
-  margin-bottom:20px;
-  overflow:hidden;
-}
-.topics li{
-  width: 50%;
-  line-height:1.5em;
-  float:left;
-  display:inline;
-}
-
 hr {
     border: none;
     background-color: #aaa;
     color: #ccc;
     height: 1px;
+}
+
+#proceedings li {
+    margin-bottom: 10px;
+}
+
+#organizers li {
+    margin-bottom: 4px;
 }

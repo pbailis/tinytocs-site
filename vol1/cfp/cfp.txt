@@ -1,0 +1,44 @@
+Tiny Transactions on Computer Science Volume One 
+http://tinytocs.org/
+
+---------------
+CALL FOR PAPERS
+---------------
+
+Tiny Transactions on Computer Science seeks papers describing significant research contributions to the field of computer science. Tiny ToCS is the premier venue for computer science research of 140 characters or less.
+
+--------------
+Why Tiny ToCS?
+--------------
+
+Tiny ToCS is a forum for high-quality scholarly discourse that challenges researchers to engage with their work in new capacities. Not only does the restricted format require a concise distillation of scholarly results, but the short format will be more accessible to the Computer Science community at large. In fact, to ensure broad applicability, submissions will be reviewed by one area expert and at least two computer scientists outside of the submission's designated research area. Tiny ToCS favors accessible, carefully crafted, creative research.
+
+We invite submissions on a wide range of computer science research, including, but not limited to:
+
+Artificial Intelligence
+Computer Architecture
+Computer Networking
+Computer Systems
+Computer Security
+Graphics
+Human-Computer Interaction
+Machine Learning
+Programming Languages
+Theory of Computation
+
+-----------
+Submissions
+-----------
+
+Tiny TOCS is a highly selective venue where full papers typically report novel results and ideas. Submissions can be up to 140 characters in length, with an abstract of no more than 250 words and a title of no more than 118 characters.
+
+Important Dates for Volume 1:
+
+Final submission: July 1st, 2012, Midnight PST
+Notification: August 1st
+Publication: August 14th
+Other important dates will be announced in due course.
+
+Publication Details
+
+The proceedings of Tiny ToCS Volume 1 will be posted to the arXiv under a Creative Commons Attribution-NonCommercial-ShareAlike license.
