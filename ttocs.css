@@ -70,6 +70,7 @@ hr {
 }
 
 #index {
+    vertical-align: middle;
     font-style: bold;
     font-size: 32px;
 }
