@@ -63,3 +63,19 @@ hr {
     margin-bottom: 5px;
     color: #777;
 }
+
+#twitterfollow {
+    float: right;
+    text-align: right;
+}
+
+#index {
+    font-style: bold;
+    font-size: 32px;
+}
+
+#indexbox {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
