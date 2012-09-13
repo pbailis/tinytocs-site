@@ -13,6 +13,7 @@ margin-right: auto;
 #opening {
 line-height: 1.4em;
 font-size: 1.4em;
+margin-bottom: .8em;
 }
 
 body{
@@ -83,7 +84,7 @@ hr {
 }
 
 #indexbox {
-    margin-top: 1.5em;
+    margin-top: 2em;
     margin-bottom: 1.5em;
 }
 
