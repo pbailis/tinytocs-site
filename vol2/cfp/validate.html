@@ -1,0 +1,132 @@
+<html>
+<head>
+
+<title>Tiny ToCS Submission Validator</title>
+<link rel=StyleSheet href="ttocs.css" type="text/css">
+
+<link href="favicon.ico" />
+
+<script type="text/javascript">
+
+/*
+What is this I don't even...
+*/
+
+function checkSuccessFailure()
+{
+if (document.getElementById("titleproblems").style.visibility=="hidden"
+    && document.getElementById("abstractproblems").style.visibility=="hidden"
+    && document.getElementById("bodyproblems").style.visibility=="hidden")
+{
+document.getElementById("successmsg").innerHTML = "Input looks good!";
+document.getElementById("successmsg").style.color = "black";
+}
+else
+{
+document.getElementById("successmsg").innerHTML = "There were problems with your input.";
+document.getElementById("successmsg").style.color = "red";
+}
+}
+
+function countTitle()
+{
+var title = document.validate.title.value;
+document.getElementById("titlecnt").innerHTML = title.length;
+
+if(title.length > 117)
+{
+document.getElementById("titlestatus").style.color = "red";
+document.getElementById("titleproblems").style.visibility="visible";
+}
+else
+{
+document.getElementById("titlestatus").style.color = "black";
+document.getElementById("titleproblems").style.visibility="hidden";
+}
+
+checkSuccessFailure();
+
+
+}
+
+function countAbstract()
+{
+var abstract = document.validate.abstract.value.replace(/(\r\n|\n|\r)/gm," ");
+var abstractlen = abstract.split(' ').filter(function(input){return input!=""}).length;
+document.getElementById("abstractcnt").innerHTML = abstractlen;
+
+if(abstractlen > 250)
+{
+document.getElementById("abstractstatus").style.color = "red";
+document.getElementById("abstractproblems").style.visibility="visible";
+}
+else
+{
+document.getElementById("abstractstatus").style.color = "black";
+document.getElementById("abstractproblems").style.visibility="hidden";
+}
+
+checkSuccessFailure();
+
+}
+
+function countBody()
+{
+var body = document.validate.body.value;
+document.getElementById("bodycnt").innerHTML = body.length;
+
+if(body.length > 140)
+{
+document.getElementById("bodystatus").style.color = "red";
+document.getElementById("bodyproblems").style.visibility="visible";
+}
+else
+{
+document.getElementById("bodystatus").style.color = "black";
+document.getElementById("bodyproblems").style.visibility="hidden";
+}
+
+checkSuccessFailure();
+
+}
+</script>
+</head>
+
+<body>
+
+<h1> Validate your <a href="http://tinytocs.org">Tiny ToCS Volume 1</a> <a href="http://tinytocs.org/#submissions">submission</a> below.</h1>
+  
+<form name="validate">
+
+ Title <span id="titlestatus">(<span id="titlecnt">0</span> characters)</span>:<br/> <input type="text" name="title" size="117" onKeyDown="countTitle();" onKeyUp="countTitle()"><br/><br/>
+
+ Abstract <span id="abstractstatus">(<span id="abstractcnt">0</span> words)</span>:<br/><textarea name="abstract" cols ="120" rows="5" onKeyDown="countAbstract();" onKeyUp="countAbstract()"></textarea><br/><br />
+
+ Body <span id="bodystatus">(<span id="bodycnt">0</span> characters)</span>:<br/> <input type="text" name="body" size="140"  onKeyDown="countBody();" onKeyUp="countBody()"><br/>
+ 
+<h1 id="successmsg">Input looks good!</h1>
+<p style="color: red;">
+<span id="titleproblems" style="visibility:hidden;">Your title is too long. (117 characters maximum)</span> <br/>
+<span id="abstractproblems" style="visibility:hidden;">Your abstract is too long. (250 words maximum)</span> <br />
+<span id="bodyproblems" style="visibility:hidden;">Your submission body is too long. (140 characters maximum)</span> <br />
+</p>
+
+</form>
+</body>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30544743-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</html>
+
