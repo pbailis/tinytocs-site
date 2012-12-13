@@ -1,0 +1,58 @@
+html {
+    font-family: "Georgia", Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+
+img.headerimg {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+body{
+background: F0F0F0;
+}
+
+#content {
+font-size: 1.1em;
+line-height: 1.3em;
+padding: 1em;
+margin-left: auto;
+margin-right:auto;
+margin-top: 0em;
+width: 70%;
+margin-bottom:2em;
+padding-bottom:1em;
+}
+
+#fwf {
+font-family: Courier;
+}
+
+#menu {
+text-align: center;
+}
+
+a:link, a:visited {color: #222; text-decoration: underline; }
+a:active, a:hover {color: #444; text-decoration: underline; }
+
+.topics ul {
+  margin-left: auto;
+  margin-right: auto;
+  width:625px;
+  margin-bottom:20px;
+  overflow:hidden;
+}
+.topics li{
+  width: 50%;
+  line-height:1.5em;
+  float:left;
+  display:inline;
+}
+
+hr {
+    border: none;
+    background-color: #aaa;
+    color: #ccc;
+    height: 1px;
+}

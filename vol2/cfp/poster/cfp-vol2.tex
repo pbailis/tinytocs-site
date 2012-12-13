@@ -1,0 +1,77 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper, top=0.75in, bottom=0.75in, inner=1.20in, outer=1.20in, foot=.05in]{geometry}
+\usepackage{textfit}
+\usepackage{boxedminipage}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage[pdftex]{graphicx}
+
+% ----------------------------------------------------------------------
+% Tiny ToCS Call for Participation Poster
+\newcommand{\ttocsVolume}{1}                    % Volume Number
+\newcommand{\ttocsDueDate}{January 30, 2013}      % Due Date
+\newcommand{\ttocsContentLimit}{140\xspace}     % Content Char Limit
+\newcommand{\ttocsTitleLimit}{118\xspace}       % Title Char Limit
+\newcommand{\ttocsAbstractLimit}{250\xspace}    % Abstract *Word* Limit
+\newcommand{\ttocsRefLimit}{three\xspace}       % Reference Limit
+% ----------------------------------------------------------------------
+
+\usepackage[ps2pdf,
+            hyperfigures=false,
+            hyperindex=false,
+            pdfborder={ 0 0 0 },
+            pdftitle={Call for Participation: Tiny ToCS Volume 2},
+            pdfauthor={http://tinytocs.org},
+            pdfkeywords={}]{hyperref}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\baselineskip 24pt
+
+\parindent 0.0cm
+
+\begin{center}
+    \includegraphics[width=\textwidth]{ttocs-logo.pdf} \\
+    \vspace{0.25in}
+    {\rm \scaletowidth{6in}{Call for Participation} }
+\end{center}
+
+\vspace*{0.15in}
+
+\setlength{\fboxrule}{2pt}
+\setlength{\fboxsep}{16pt}
+\begin{boxedminipage}{\columnwidth}
+\begin{large}
+The \textbf{Tiny Transactions on Computer Science} seeks short and concise papers describing research contributions to
+the field of computer science. We invite submissions on a wide range of computer science research, including, but not
+limited to:
+
+\begin{center}
+    \begin{tabular}{cc}
+        Artificial Intelligence     & Computer Architecture \\
+        Computer Networking         & Computer Systems \\
+        Computer Security           & Graphics \\
+        Human-Computer Interaction  & Machine Learning \\
+        Programming Languages       & Theory of Computation \\
+    \end{tabular} 
+\end{center}
+
+Tiny ToCS is the premier venue for computer science research of \textbf{\ttocsContentLimit characters} or less.
+Submissions are allowed an abstract of no more than \ttocsAbstractLimit words and a title of no more than
+\ttocsTitleLimit characters. The primary content of submissions should fit into \ttocsContentLimit characters. The
+abstract is not intended to expound upon your finding but instead to provide context for your work. \\
+
+You may use \ttocsRefLimit references in your submission. Your submission may not contain any non-text figures or
+special formatting. Plain-text only. ASCII art okay. 
+
+\end{large}
+\end{boxedminipage}
+
+\begin{center}
+    {\rm \scaletowidth{6in}{Accepting New Paper Submissions until \ttocsDueDate}}
+    \vspace*{0.25in}
+    {\huge \url{http://tinytocs.org}}
+\end{center}
+\end{document}
