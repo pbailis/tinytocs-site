@@ -1,0 +1,90 @@
+html {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #111;
+    height: 100%;
+}
+
+img.headerimg {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#opening {
+line-height: 1.4em;
+font-size: 1.4em;
+margin-bottom: .8em;
+}
+
+body{
+background: #FEFEFE;
+}
+
+#content {
+font-size: 1em;
+line-height: 1.2em;
+padding: 1em;
+margin-left: auto;
+margin-right:auto;
+margin-top: 0em;
+width: 70%;
+max-width: 800px;
+margin-bottom:2em;
+padding-bottom:1em;
+}
+
+#contact, h2, h3 {
+background: #ddd;
+padding: .5em;
+}
+
+#fwf {
+font-family: Courier;
+}
+
+#menu {
+text-align: center;
+font-size: 1.2em;
+}
+
+a:link, a:visited {color: #222; text-decoration: underline; }
+a:active, a:hover {color: #444; text-decoration: underline; }
+
+hr {
+    border: none;
+    background-color: #aaa;
+    color: #ccc;
+    height: 1px;
+}
+
+#proceedings li {
+    margin-bottom: 10px;
+}
+
+#organizers li {
+    margin-bottom: 4px;
+}
+
+
+.paper-body {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    color: #777;
+}
+
+#twitterfollow {
+    float: right;
+    text-align: right;
+}
+
+#index {
+    vertical-align: middle;
+    font-style: bold;
+    font-size: 1.8em;
+}
+
+#indexbox {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
