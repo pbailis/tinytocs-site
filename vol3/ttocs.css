@@ -65,6 +65,11 @@ hr {
     margin-bottom: 4px;
 }
 
+.topics ul{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 
 .paper-body {
     margin-top: 2px;
