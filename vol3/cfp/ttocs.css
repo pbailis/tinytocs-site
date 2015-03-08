@@ -38,6 +38,12 @@ background: #ddd;
 padding: .5em;
 }
 
+.topics ul{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 #fwf {
 font-family: Courier;
 }
