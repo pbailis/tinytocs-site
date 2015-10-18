@@ -1315,7 +1315,7 @@
 \def\crdata#1{\global\acmcopyr{#1}}
 \def\permission#1{\global\boilerplate{#1}}
 %
-\global\boilerplate={{\it Volume 3 of Tiny Transactions on Computer Science}\\This content is released under the Creative Commons Attribution-NonCommercial ShareAlike License. Permission to make digital or hard copies of all or part of this work is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.}
+\global\boilerplate={{\it Volume 4 of Tiny Transactions on Computer Science}\\This content is released under the Creative Commons Attribution-NonCommercial ShareAlike License. Permission to make digital or hard copies of all or part of this work is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.}
 \newtoks\copyrightetc
 \global\copyrightetc{CC BY-NC-SA 3.0: http://creativecommons.org/licenses/by-nc-sa/3.0/}
 \toappear{\the\boilerplate\par
