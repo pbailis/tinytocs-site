@@ -77,6 +77,14 @@ hr {
     color: #777;
 }
 
+.paper-authors {
+    font-size: 0.9em;
+}
+
+.author-inst {
+    font-style: italic;
+}
+
 #twitterfollow {
     float: right;
     text-align: right;
